@@ -17,7 +17,7 @@ class TestCalculator:
         assert 100 == calculator.multiply(10, 10)
 
     def test_division(self):
-        asset 5 == calculator.divide(25, 5)
+        assert 100 == calculator.divide(1000, 10)
 
     def mod_div(self):
-        asset 1 == calculator.mod_div(5, 2)
+        assert 1 == calculator.mod_div(5, 2)
